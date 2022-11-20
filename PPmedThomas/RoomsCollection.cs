@@ -11,15 +11,17 @@ namespace PPmedThomas
         public static List<Room> rooms = new List<Room>();
         static RoomsCollection()
         {
-
             rooms.Add(new Room(101));
             rooms.Add(new Room(102));
             rooms.Add(new Room(103));
             rooms.Add(new Room(104));
-
+            rooms.Add(new Room(105));
+            rooms.Add(new Room(106));
+            rooms.Add(new Room(107));
+            rooms.Add(new Room(108));
+            rooms.Add(new Room(109));
         }
         
-
 
         static public void CreateRooms()
         {
@@ -35,9 +37,7 @@ namespace PPmedThomas
                 }
             }
 
-
            var room = (floorNumber + 0 + roomNumber);
-
         }
 
         static public void ShowRooms()

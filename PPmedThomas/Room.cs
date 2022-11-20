@@ -13,12 +13,10 @@ namespace PPmedThomas
 
         public Room(int roomId, bool isAvailable = false)
         {
-            RoomId= roomId;
-            IsAvailable= isAvailable;
+            RoomId = roomId;
+            IsAvailable = isAvailable;
            
         }
-
-
         
     }
 }

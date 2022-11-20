@@ -29,9 +29,9 @@ namespace PPmedThomas
 
         public void AddRooms()
         {
-            foreach (var rom in RoomsCollection.rooms)
+            foreach (var room in RoomsCollection.rooms)
             {
-                this.Rooms.Add(rom);
+                this.Rooms.Add(room);
             }
         }
         
